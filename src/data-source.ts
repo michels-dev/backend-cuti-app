@@ -8,4 +8,5 @@ const DataSourceCuti = new DataSource({
   username: "postgres",
   password: "michels05",
   entities: ["src/cuti/entities/**/*.entity{.ts,.js}"],
+  migrations: ["src/migrations/**/*{.ts,.js}"],
 })
