@@ -12,5 +12,5 @@ export class CreateCutiDto {
   pengganti : string;
 }
 
-export default CreateCutiDto
+export default CreateCutiDto;
 
